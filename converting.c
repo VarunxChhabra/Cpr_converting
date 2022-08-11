@@ -7,47 +7,44 @@
 // Including the header file for calling the functions
 #include "converting.h" 
 
-// V1
-
-
 // Calling the converting function
 void converting(void)
 {
-	// Initilazie the code the by printing the line
-	printf("*** Start of Converting Strings to int Demo ***\n");
+    // Initilazie the code by printing the line that says converting strings to double
+    printf("*** Start of Converting Strings to double Demo ***\n");
 
-	// Creating the array of intString with the max value of 80
-	char intString[BUFFER_SIZE];
+    // Creating the array of doubleString with the max value of 80
+    char doubleString[BUFFER_SIZE];
 
-	// Creating an integer variable named intNumber
-	int intNumber;
+    // Creating an double variable named doubleNumber
+    double doubleNumber;
 
-	// Starting the do-while loop 
-	do {
+    // Starting the do-while loop
+    do
+    {
+        // Printing line which says type q to quit the loop and program
+        printf("Type the double numeric string (q - to quit):\n");
 
-		// Printing line which says type q to quit the loop and program
-		printf("Type an int numeric string (q - to quit):\n");
+        // reads the input and stores it into the doubleString array of 80 size and stdin is used to send the data to the program
+        fgets(doubleString, BUFFER_SIZE, stdin);
 
-		// reads the input and stores it into the intString array of 80 size and stdin is used to send the data to the program
-		fgets(intString, BUFFER_SIZE, stdin);
+        // assigning the last character of doubleString to a null terminating character
+        doubleString[strlen(doubleString) - 1] = '\0';
 
-		// assigning the last character of intString to a null terminating character
-		intString[strlen(intString) - 1] = '\0';
+        //  applying if condition for comparing that the character entered if not equal to q
+        if ((strcmp(doubleString, "q") != 0))
+        {
+          // storing the double integer value afer converting it from string by using atoi function
+            doubleNumber = atof(doubleString);
 
-		//  applying if condition for comparing the character if not equal to q
-		if (strcmp(intString, "q") != 0)
-		{
-			// storing the integer value afer converting it from string by use of atoi function
-			intNumber = atoi(intString);
+            // printing the result statement with the converted number
+            printf("Converted number is %f\n", doubleNumber);
 
-			// printing the result statement with the converted number
-			printf("Converted number is %d\n", intNumber);
-			// ending of if condition
-		}
-
-		// applying the condition that loop will work until q is entered
-	} while (strcmp(intString, "q") != 0);
-
-	// Printing the ending line of part converting
-	printf("*** End of converting strings to int Demo ***\n\n");
+            // ending of if condition
+        }
+        // applying the condition that do-while loop will work until q is entered
+    } while (strcmp(doubleString, "q") != 0);
+    
+    // Printing the ending line for this converting part
+    printf("*** End of Converting Strings to double Demo ***\n\n");
 }
