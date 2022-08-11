@@ -1,0 +1,128 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+1
+*** Start of the Indexing Strings Demo ***
+Type not empty string (q - to quit):
+CPr Ngg 101
+Type the character position within the string:
+5
+The character found at 5 position is 'g'
+Type not empty string (q - to quit):
+3@#$%^&
+Type the character position within the string:
+3
+The character found at 3 position is '$'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+*** Start of Concatenating Strings Demo ***
+Type the 1st string (q-to quit):
+friends
+Type the 2nd string:
+ forever
+Concatenated string is 'friends forever'
+Type the 1st string (q-to quit):
+abx123
+Type the 2nd string:
+ @#$%%gnhj
+Concatenated string is 'abx123  @#$%%gnhj'
+Type the 1st string (q-to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+999999999
+Converted number is 999999999
+Type an int numeric string (q - to quit):
+2658974365
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+job
+Converted number is 0
+Type an int numeric string (q - to quit):
+#$%^&*
+Converted number is 0
+Type an int numeric string (q - to quit):
+125ABX*&^%$$
+Converted number is 125
+Type an int numeric string (q - to quit):
+q
+*** End of converting strings to int Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+4
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+Hi everyone this is VArun
+Word #1 is 'Hi'
+Word #2 is 'everyone'
+Word #3 is 'this'
+Word #4 is 'is'
+Word #5 is 'VArun'
+Type a few words separated by space (q - to quit):
+1 2 3 4
+Word #1 is '1'
+Word #2 is '2'
+Word #3 is '3'
+Word #4 is '4'
+Type a few words separated by space (q - to quit):
+Abx123 456
+Word #1 is 'Abx123'
+Word #2 is '456'
+Type a few words separated by space (q - to quit):
+%$# @$$% $$$$
+Word #1 is '%$#'
+Word #2 is '@$$%'
+Word #3 is '$$$$'
+Type a few words separated by space (q - to quit):
+ V@run45 $$$&$$$
+Word #1 is 'V@run45'
+Word #2 is '$$$&$$$'
+Type a few words separated by space (q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+Which module to run?
+-6
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0
+
+C:\Users\varun\source\repos\cpr_v1\x64\Debug\cpr_v1.exe (process 9668) exited with code 0.
+Press any key to close this window . . .

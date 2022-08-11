@@ -34,7 +34,7 @@ void converting(void)
         //  applying if condition for comparing that the character entered if not equal to q
         if ((strcmp(doubleString, "q") != 0))
         {
-          // storing the double integer value afer converting it from string by using atoi function
+            // storing the double integer value afer converting it from string by using atoi function
             doubleNumber = atof(doubleString);
 
             // printing the result statement with the converted number
@@ -44,7 +44,7 @@ void converting(void)
         }
         // applying the condition that do-while loop will work until q is entered
     } while (strcmp(doubleString, "q") != 0);
-    
+
     // Printing the ending line for this converting part
     printf("*** End of Converting Strings to double Demo ***\n\n");
 }
